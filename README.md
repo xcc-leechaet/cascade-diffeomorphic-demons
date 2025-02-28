@@ -1,1 +1,3 @@
 # cascade-diffeomorphic-demons
+
+By splitting a complete process into several small processes that are performed in sequence, the performance of the loss function and image registration is improved. The reason for this is that the deformation field compound process will have a loss of accuracy. By splitting the process, the image caused by the loss can be reduced. It is a bit like the application of cascade neural networks in traditional algorithms, but it is analyzable.
